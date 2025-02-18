@@ -1,0 +1,3 @@
+{
+  "components/themevale/banners/layout-banner": "{{!--\nArguments:\n    - find (string)\n--}}\n{{#if banners.top}}\n\t{{#each banners.top}}\n\t    {{#if (occurrences this ../find) '>' 0}}\n\t        {{{this}}}\n\t    {{/if}}\n\t{{/each}}\n{{/if}}\n"
+}
