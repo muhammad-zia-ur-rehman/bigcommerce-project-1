@@ -2,6 +2,9 @@
 
 <main class="page{{#if theme_settings.hide_page_heading '==' true}} no-heading{{/if}}">
     <div class="container container-small">
+        
+        <h1 class="page-heading">{{ page.title }}</h1>
+
         {{#unless theme_settings.hide_page_heading }}
             <div class="themevale-heading">
                 <h1 class="page-heading">{{ page.title }}</h1>
